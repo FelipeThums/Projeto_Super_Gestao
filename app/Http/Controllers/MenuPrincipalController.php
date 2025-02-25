@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class MenuPrincipalController extends Controller
 {
     public function MenuPrincipal(){
-        echo 'MenuPrincipal';
+       Return view ('site.principal');
     }
 }

@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class SobreNosController extends Controller
 {
-    public function Login(){
-       echo 'LOGIN';
+    public function sobrenos(){
+       return view('site.sobre-nos');
    }
 }
