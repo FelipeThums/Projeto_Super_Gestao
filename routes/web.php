@@ -14,8 +14,8 @@ Route::get('/Sobre-Nos', [App\Http\Controllers\SobreNosController::class,'sobren
 
 
 
-Route::get('/Clientes', [App\Http\Controllers\Cliente]
-);
+//Route::get('/Clientes', [App\Http\Controllers\Cliente]
+//);
 
 
 
